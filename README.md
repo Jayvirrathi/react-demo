@@ -5,7 +5,7 @@
 
 ## ✨ Features
 
-- 📦 Build in React
+- 📦 Build using React.Js
 
 ## Installation
 
