@@ -17,14 +17,24 @@ const portfolioData = {
             technology: ['HTML/CSS', 'React Native', 'MongoDB'],
         },
         {
-            id: 0,
-            title: 'Nodejs Nodejs Kubernetes Example',
+            id: 1,
+            title: 'Nodejs Docker Kubernetes Example',
             imageUrl: 'images/portfolio/logo512.png',
             link: 'https://github.com/Jayvirrathi/nodejs-docker-kubernetes',
             codeLink: 'https://github.com/Jayvirrathi/nodejs-docker-kubernetes',
             description:
                 'This projects example how to use docker & kubernetes with nodejs',
-            technology: ['Nodejs', 'Nodejs', 'Nodejs'],
+            technology: ['Nodejs', 'Docker', 'Kubernetes'],
+				},
+				{
+            id: 2,
+            title: 'Deno Docker Kubernetes Example',
+            imageUrl: 'images/portfolio/logo512.png',
+            link: 'https://github.com/Jayvirrathi/deno-docker-kubernetes',
+            codeLink: 'https://github.com/Jayvirrathi/deno-docker-kubernetes',
+            description:
+                'This projects example how to use docker & kubernetes with deno',
+            technology: ['deno', 'Nodejs', 'Nodejs'],
         },
     ],
     skills: [
