@@ -12,10 +12,5 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: Install and Build 🔧
-        run: |
-          npm install
-          CI=false npm run build
-
       - name: Deploy reactjs app to github pages
-        uses: Jayvirrathi/deploy-reactjs-to-ghpages@v1.0.0                           
+        uses: Jayvirrathi/deploy-reactjs-to-ghpages@v1.1.0                           
